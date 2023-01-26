@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Gv. time';
+    src: url('Gvtime-Regular.woff2') format('woff2'),
+        url('Gvtime-Regular.woff') format('woff');
+    font-weight:normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* HOME PAGE */
+#home-page{ 
+    background-image: url("./WallpaperDog-20510060.jpg");
+    background-size: cover;
+}
+
+#home-header{
+    background-color: black;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 2em;
+}
+
+#home-name-header{
+    font-family: 'Gv. time' ;
+    font-size: 128px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.home-title{
+    margin-bottom: 40px;
+}
+
+#home-body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+#home-blurb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    background-color: white;
+    border: 30px solid black;
+    font-size: 24px;
+    padding-right: 1.5em;
+    margin: 3em;
+    border-radius: 5px;
+    
+}
+ #pic-div{
+    margin-bottom: -7px;
+ }
+
+ #bio-div{
+    padding-left: 50px;
+    padding-right: 10px;
+ }
+#profile-pic{
+    width: auto;
+    max-height: 410px;
+    height: fit-content;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+a:hover{
+    background-color:#6cb4b0;
+    color:white;
+}
+
+/* WORK PAGE */
+#work-page {
+    background-color:rgb(108,180,175);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left:-10px;
+    margin-right: -10px;
+
+}
+
+.page-header{
+    background-color: black;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 2em;
+    
+}
+
+#work-title{
+    font-family: 'Gv. time' ;
+    font-size: 128px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.work-item{
+    display: flex;
+    align-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 3px rgb(79, 130, 126);
+    margin: 7em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* RESUME PAGE */
+
+#resume-title{
+    font-family: 'Gv. time' ;
+    font-size: 128px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#resume-background{
+    background-color: rgb(226,174,72);
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+}
+#resume-body{
+    
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+ 
+}
+
+#resume-skills{
+    background-color: rgb(226,174,72);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+#skills-body{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.section-title{
+    font-family: 'Gv. time' ;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.skills-area{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2em;
+    width: 280px;
+    box-shadow: 3px 5px 3px rgb(197, 152, 62);
+}
+
+.skills-header{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.employer{
+    text-decoration: underline;
+    margin-top: 65px;
+}
+
+#resume-work{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2em;
+    box-shadow: 3px 5px 3px rgb(197, 152, 62);
+}
+
+#resume-education{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2em;
+    box-shadow: 3px 5px 3px rgb(197, 152, 62);
+}
+
+.solo-button{
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.solo-button:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+#ilt-video{
+    margin-top: 20px;
+}
+
+#ilt-client{
+    margin-top: -8px;
+    margin-bottom: 30px;
+}
+
+#solo-video{
+    margin-top: 20px
+}
